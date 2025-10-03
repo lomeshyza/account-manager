@@ -27,3 +27,7 @@ For the assignment result we need a repository with commits. Suggested commit st
 5. Final polish and README commit
 
 This will produce a clear commit history that demonstrates incremental work.
+
+
+## Usage Instructions
+Run npm install && npm run dev
