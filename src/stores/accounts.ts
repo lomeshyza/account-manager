@@ -41,5 +41,3 @@ export const useAccountsStore = defineStore('accounts', () => {
 
   return { accounts, add, update, remove }
 })
-
-// store implementation added

@@ -9,7 +9,7 @@
       maxlength="200"
     />
 
-    <select v-model="local.type" @change="onTypeChange">
+    <select class="input" v-model="local.type" @change="onTypeChange">
       <option value="LDAP">LDAP</option>
       <option value="Local">Локальная</option>
     </select>

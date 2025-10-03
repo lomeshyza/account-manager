@@ -5,7 +5,6 @@
       <button class="btn add" @click="add">+ Добавить</button>
     </header>
 
-    <div class="hint">Метка: необязательное поле. Вводите метки через знак `;`. Каждая метка — до 50 символов.</div>
 
     <div class="list">
       <AccountRow v-for="acc in accounts" :key="acc.id" :account="acc" />
@@ -39,7 +38,6 @@ export default defineComponent({
 .container{max-width:900px;margin:20px auto;padding:12px}
 .header{display:flex;justify-content:space-between;align-items:center}
 .btn.add{background:#1976d2;color:#fff;border:none;padding:8px 12px;border-radius:6px}
-.hint{margin:8px 0;color:#555}
 .list{display:flex;flex-direction:column;gap:8px}
 .empty{padding:12px;color:#777}
 </style>
