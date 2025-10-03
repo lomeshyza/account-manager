@@ -43,3 +43,5 @@ export default defineComponent({
 .list{display:flex;flex-direction:column;gap:8px}
 .empty{padding:12px;color:#777}
 </style>
+
+<!-- AccountsList component -->
