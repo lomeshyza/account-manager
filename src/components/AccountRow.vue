@@ -135,3 +135,5 @@ export default defineComponent({
 .input.invalid{border-color:#e53935}
 .delete{background:#ef5350;color:white;border:none;padding:6px 8px;border-radius:4px}
 </style>
+
+<!-- AccountRow component -->
